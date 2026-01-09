@@ -1,14 +1,18 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
+import Navbar from './components/Navbar'
+import ProfileHead from './components/ProfileHead'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      <h1>Hi!</h1>
+      <div className='w-full h-screen flex justify-center items-center absolute bg-radial from-purple-300 via-10% to-yellow-100'></div>
+      <header className='flex justify-center'>
+        <Navbar />
+      </header>
+      <main className='flex flex-col justify-center h-screen mx-4'>
+        <ProfileHead />
+      </main>
     </>
   )
 }
