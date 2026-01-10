@@ -6,7 +6,7 @@ function App() {
 
   return (
     <>
-      <div className='w-full h-screen flex justify-center items-center absolute bg-radial from-purple-300 via-10% to-yellow-100'></div>
+      <div className='w-full h-screen flex justify-center items-center fixed bg-radial from-purple-300 via-10% to-white'></div>
       <header className='flex justify-center'>
         <Navbar />
       </header>
