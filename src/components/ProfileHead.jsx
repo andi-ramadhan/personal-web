@@ -6,7 +6,7 @@ export default function ProfileHead() {
           <h1 className="text-4xl pb-3">Halo, <br />I'm Andi!</h1>
           <div className="size-30 mr-4 border border-gray-400 rounded-full flex items-center justify-center">
             <img
-              src='src\assets\pfp.png'
+              src='/images/pfp.png'
               className="size-full rounded-full object-cover bg-white/20"
             />
           </div>
