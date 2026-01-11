@@ -1,7 +1,7 @@
 export default function ProfileHead() {
   return (
-    <div className="flex flex-col items-center leading-relaxed text-pretty">
-      <div className="container flex flex-col gap-3 shadow-2xl backdrop-blur-xl bg-white/20 rounded-xl p-5 [&>p]:text-md">
+    <div className="flex flex-col justify-center items-center leading-relaxed text-pretty h-screen w-full">
+      <div className="flex flex-col gap-3 shadow-2xl backdrop-blur-xl bg-white/20 rounded-xl p-5 [&>p]:text-md">
         <div className="flex w-full items-center justify-between">
           <h1 className="text-4xl pb-3">Halo, <br />I'm Andi!</h1>
           <div className="size-30 mr-4 border border-gray-400 rounded-full flex items-center justify-center">
