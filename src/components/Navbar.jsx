@@ -1,7 +1,7 @@
 export default function Navbar() {
   return (
     <div className={`
-      w-50 flex fixed top-5 z-1 bg-none backdrop-blur-sm rounded-xl ring-1 ring-purple-200 shadow-md py-3 px-2 justify-around
+      w-50 flex fixed top-5 z-40 bg-none backdrop-blur-sm rounded-xl ring-1 ring-purple-200 shadow-md py-3 px-2 justify-around
       [&>a]:size-7 [&>a]:opacity-70 [&>a]:font-thin
       `} >
       <a href="#">
