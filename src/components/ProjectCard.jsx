@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react"
+import { createPortal } from "react-dom"
 
 export default function ProjectCard({ title, description, details, technologies, link }) {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -25,9 +26,9 @@ export default function ProjectCard({ title, description, details, technologies,
         </button>
       </div>
 
-      {isModalOpen && (
-        <div className="fixed inset-0 pt-20 z-50 flex items-center backdrop-blur-sm">
-          <div className="bg-white rounded-2xl py-6 px-8 max-w-lg w-full shadow-xl relative ring-1 ring-purple-200">
+      {isModalOpen && createPortal(
+        <div className="fixed inset-0 z-50 flex items-center justify-center backdrop-blur-sm p-4">
+          <div className="bg-white rounded-2xl py-6 px-8 max-w-lg w-full shadow-xl relative ring-1 ring-purple-200 animate-in fade-in zoom-in duration-200">
             <button
               onClick={closeModal}
               className="absolute top-6 right-6 text-gray-400 hover:text-black transition-colors text-xl"
@@ -69,7 +70,8 @@ export default function ProjectCard({ title, description, details, technologies,
               </a>
             </div>
           </div>
-        </div>
+        </div>,
+        document.body
       )}
     </>
   )
