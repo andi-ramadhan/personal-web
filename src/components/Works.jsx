@@ -12,7 +12,7 @@ export default function Works() {
       <div className="max-w-6xl w-full space-y-16 relative z-10">
         <div className="space-y-6 text-center">
           <h2 className="text-5xl md:text-7xl font-serif text-slate-900 tracking-tight leading-tight">
-            Selected <span className="text-purple-600 italic">Works</span>.
+            Selected <span className="text-purple-600 italic">Works</span>
           </h2>
           <p className="text-slate-500 text-lg md:text-xl max-w-2xl mx-auto font-sans font-light leading-relaxed">
             A collection of projects where I've blended technical precision with creative problem-solving.
