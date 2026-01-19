@@ -56,7 +56,7 @@ export default function ProfileHead() {
               </ul>
             </div>
             <div className="pt-4 border-t border-slate-800">
-              <p className="text-[10px] uppercase tracking-widest text-slate-500 font-bold">Based in Jakarta, ID</p>
+              <p className="text-[10px] uppercase tracking-widest text-slate-500 font-bold">Based in South Tangerang, ID</p>
             </div>
           </div>
         </div>
