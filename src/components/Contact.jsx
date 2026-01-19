@@ -19,7 +19,7 @@ export default function Contact() {
       <div className="max-w-4xl w-full text-center space-y-16 relative z-10">
         <div className="space-y-6">
           <h2 className="text-5xl md:text-7xl font-serif text-slate-900 tracking-tight leading-tight">
-            Let's build <span className="text-purple-600 italic">together</span>.
+            Let's build <span className="text-purple-600 italic">together</span>
           </h2>
           <p className="text-slate-500 text-lg md:text-xl max-w-2xl mx-auto font-sans font-light leading-relaxed">
             I'm always open to discussing new projects, creative ideas or opportunities to be part of your visions.
