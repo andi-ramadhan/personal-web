@@ -9,9 +9,11 @@ function App() {
   return (
     <>
       <div className='w-full h-screen fixed bg-white'></div>
-//      <header className='flex justify-center'>
-//        <Navbar />
-//      </header>
+      {/*
+       <header className='flex justify-center'>
+         <Navbar />
+       </header>
+      */}
       <main className='flex flex-col items-center px-5 min-h-screen w-full overflow-x-hidden'>
         <ProfileHead />
         <Works />
