@@ -1,4 +1,4 @@
-import { BsArrowDown } from "react-icons/bs";
+import { BsArrowDown, BsDownload } from "react-icons/bs";
 
 export default function ProfileHead() {
   return (
@@ -43,6 +43,16 @@ export default function ProfileHead() {
             <p className="text-xl md:text-2xl text-slate-500 font-sans font-light leading-relaxed">
               Merging <span className="text-slate-900 font-normal">4+ years</span> of IT Support expertise with a passion for building <span className="text-slate-900 font-normal">applications</span>. I bridge the gap between technical infrastructure and creative code. For me, code is not only about the logic, but also about the <span className="text-slate-900 font-normal">art and experience.</span>
             </p>
+            <div className="pt-4">
+              <a
+                href="/CV - Andi Fajar Ramadhan.PDF"
+                download
+                className="inline-flex items-center gap-3 px-6 py-3 rounded-2xl bg-slate-50 text-slate-900 border border-slate-100 font-semibold hover:bg-slate-900 hover:text-white transition-all duration-300 shadow-sm hover:shadow-xl hover:shadow-slate-200/50"
+              >
+                <BsDownload className="text-lg" />
+                <span>Download CV</span>
+              </a>
+            </div>
           </div>
 
           <div className="p-8 md:p-10 rounded-[2.5rem] bg-slate-900 text-white shadow-xl space-y-6 flex flex-col justify-between">
