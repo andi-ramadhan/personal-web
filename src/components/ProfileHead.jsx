@@ -2,7 +2,7 @@ import { BsArrowDown, BsDownload } from "react-icons/bs";
 
 export default function ProfileHead() {
   return (
-    <section className="min-h-screen w-full flex flex-col items-center justify-center py-24 px-6 relative overflow-hidden">
+    <section className="min-h-screen w-full flex flex-col items-center justify-center py-16 px-6 relative overflow-hidden">
 
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-purple-50/50 rounded-full blur-[120px] pointer-events-none"></div>
 
@@ -39,8 +39,8 @@ export default function ProfileHead() {
         {/* about */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           <div className="md:col-span-2 p-8 md:p-10 rounded-[2.5rem] bg-white border border-slate-100 shadow-sm space-y-6">
-            <h2 className="text-sm font-bold text-slate-900 uppercase tracking-widest">About Me</h2>
-            <p className="text-xl md:text-2xl text-slate-500 font-sans font-light leading-relaxed">
+            <h2 className="text-xl font-bold text-slate-900 uppercase tracking-widest">About Me</h2>
+            <p className="text-lg md:text-2xl text-slate-500 font-sans font-light leading-relaxed">
               Merging <span className="text-slate-900 font-normal">4+ years</span> of IT Support expertise with a passion for building <span className="text-slate-900 font-normal">applications</span>. I bridge the gap between technical infrastructure and creative code. For me, code is not only about the logic, but also about the <span className="text-slate-900 font-normal">art and experience.</span>
             </p>
             <div className="pt-4">
@@ -58,7 +58,7 @@ export default function ProfileHead() {
           <div className="p-8 md:p-10 rounded-[2.5rem] bg-slate-900 text-white shadow-xl space-y-6 flex flex-col justify-between">
             <div className="space-y-4">
               <h2 className="text-sm font-bold text-purple-400 uppercase tracking-widest">Stack</h2>
-              <ul className="space-y-2 text-sm font-sans  text-slate-300 [&>li]:bg-slate-800 [&>li]:px-2 [&>li]:py-1 [&>li]:rounded-lg [&>li]:border [&>li]:border-slate-700 [&>li]:tracking-wider">
+              <ul className="space-y-2 text-sm font-sans  text-slate-300 [&>li]:bg-slate-800 [&>li]:px-2 [&>li]:py-1 [&>li]:rounded-lg [&>li]:tracking-wider">
                 <li>React.js / Vite</li>
                 <li>Node.js / Express</li>
                 <li>PostgreSQL</li>
