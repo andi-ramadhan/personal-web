@@ -30,14 +30,14 @@ export default function ProjectCard({ title, description, details, technologies,
     <>
       <div
         onClick={openModal}
-        className="group cursor-pointer flex flex-col p-8 md:p-10 rounded-[2.5rem] bg-white border border-slate-100 shadow-sm transition-all duration-500 hover:shadow-2xl hover:shadow-purple-200/50 hover:-translate-y-2"
+        className="group cursor-pointer flex flex-col p-8 md:p-10 rounded-[2.5rem] bg-white border border-purple-200 sm:border-slate-100 shadow-sm transition-all duration-500 hover:shadow-2xl hover:shadow-purple-200/50 hover:-translate-y-2"
       >
         <div className="flex justify-between items-start mb-8">
-          <div className="p-5 rounded-2xl bg-slate-50 text-slate-900 group-hover:bg-purple-600 group-hover:text-white transition-all duration-300 text-3xl">
+          <div className="p-5 rounded-2xl bg-purple-600 text-white sm:bg-slate-50 sm:text-slate-900 group-hover:bg-purple-600 group-hover:text-white transition-all duration-300 text-3xl">
             {getIcon()}
           </div>
-          <div className="p-3 rounded-full border border-slate-100 text-slate-400 group-hover:text-purple-600 group-hover:border-purple-100 transition-all duration-300">
-            <BsArrowRight className="-rotate-45 group-hover:rotate-0 transition-transform duration-300" />
+          <div className="p-3 rounded-full border border-slate-100 bg-purple-200 text-gray-600 sm:bg-transparent sm:text-slate-400 group-hover:text-purple-600 group-hover:border-purple-100 transition-all duration-300">
+            <BsArrowRight className="-rotate-45 font-bold group-hover:rotate-0 transition-transform duration-300" />
           </div>
         </div>
 
