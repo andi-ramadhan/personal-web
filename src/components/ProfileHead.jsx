@@ -72,7 +72,7 @@ export default function ProfileHead() {
         </div>
 
         {/* scroll indicator */}
-        <div className="flex justify-center pt-8 animate-bounce">
+        <div className="hidden sm:flex justify-center pt-8 animate-bounce">
           <a href="#works" className="p-4 rounded-full border border-slate-100 text-purple-600 hover:bg-purple-600 hover:text-white transition-colors">
             <BsArrowDown />
           </a>
