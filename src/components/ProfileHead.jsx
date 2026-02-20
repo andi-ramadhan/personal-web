@@ -15,7 +15,7 @@ export default function ProfileHead() {
                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
                 <span className="relative inline-flex rounded-full h-2 w-2 bg-green-500"></span>
               </span>
-              Available for new projects
+              Available for opportunities
             </div>
 
             <h1 className="text-5xl md:text-8xl font-serif text-slate-900 tracking-tight leading-[0.9]">
@@ -28,7 +28,7 @@ export default function ProfileHead() {
             <div className="absolute -inset-1 bg-linear-to-r from-purple-600 to-blue-500 rounded-full blur opacity-25 group-hover:opacity-50 transition duration-1000 group-hover:duration-200"></div>
             <div className="relative size-40 md:size-48 rounded-full border-4 border-white bg-white overflow-hidden shadow-2xl">
               <img
-                src='/images/pfp.png'
+                src='/images/pfp.webp'
                 alt="Andi Fajar Ramadhan"
                 className="size-full object-cover transition-transform duration-500 group-hover:scale-110"
               />
@@ -41,11 +41,11 @@ export default function ProfileHead() {
           <div className="md:col-span-2 p-8 md:p-10 rounded-[2.5rem] bg-white border border-slate-100 shadow-sm space-y-6">
             <h2 className="text-xl font-bold text-slate-900 uppercase tracking-widest">About Me</h2>
             <p className="text-lg md:text-2xl text-slate-500 font-sans font-light leading-relaxed">
-              Merging <span className="text-slate-900 font-normal">4+ years</span> of IT Support expertise with a passion for building <span className="text-slate-900 font-normal">applications</span>. I bridge the gap between technical infrastructure and creative code. For me, code is not only about the logic, but also about the <span className="text-slate-900 font-normal">art and experience.</span>
+              Merging <span className="text-slate-900 font-normal">4+ years</span> of IT Support expertise with a passion for building <span className="text-slate-900 font-normal">applications</span>. I bridge the gap between technical infrastructure and creative code. For me, code is not only about the logic and functionality, but also the <span className="text-slate-900 font-normal">experience.</span>
             </p>
             <div className="pt-4">
               <a
-                href="/CV - Andi Fajar Ramadhan.PDF"
+                href="/CV-AndiFajarRamadhan.PDF"
                 download
                 className="inline-flex items-center gap-3 px-6 py-3 rounded-2xl bg-slate-50 text-slate-900 border border-slate-100 font-semibold hover:bg-slate-900 hover:text-white transition-all duration-300 shadow-sm hover:shadow-xl hover:shadow-slate-200/50"
               >
